@@ -1,4 +1,4 @@
-# 🤖 ** American Sign Language Recognition Using MediaPipe and Random Forest** ✋
+# 🤖 **American Sign Language (ASL) Recognition Using MediaPipe and Random Forest** ✋
 
 ## Overview
 This project leverages **MediaPipe** for hand gesture detection and **Random Forest** for classifying hand gestures into predefined classes. The model processes real-time hand gestures captured through a webcam, predicts the corresponding gesture, and displays the result. It is designed to recognize up to **17 different hand gestures** (A-Z).
