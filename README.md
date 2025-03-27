@@ -1,7 +1,3 @@
-Here is a **README** file for your **Hand Gesture Recognition Project** based on the provided details, following the format of the Apple Stock Prediction project you mentioned earlier.
-
----
-
 # Hand Gesture Recognition Using MediaPipe and Random Forest
 
 ## Overview
