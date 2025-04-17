@@ -84,7 +84,3 @@ Feel free to fork this repository and submit pull requests if you have improveme
 
 ## 📄 **License**
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
----
-
-The emojis and colors will make the README file more lively and engaging. You can tweak them further based on your preferences!
