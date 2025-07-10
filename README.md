@@ -4,24 +4,24 @@
 This project leverages **MediaPipe** for hand gesture detection and **Random Forest** for classifying hand gestures into predefined classes. The model processes real-time hand gestures captured through a webcam, predicts the corresponding gesture, and displays the result. It is designed to recognize up to **17 different hand gestures** (A-Z).
 
 ## 🛠️ **Technologies Used**
-- **OpenCV** – For video capture and image processing 🎥
-- **MediaPipe** – For hand landmark detection ✋
-- **Scikit-learn** – For Random Forest classification model 🌲
-- **Pickle** – For saving and loading the trained model 📦
-- **NumPy** – For data manipulation 🔢
-- **Matplotlib** – For visualization of results 📊
+- **OpenCV** – For video capture and image processing 
+- **MediaPipe** – For hand landmark detection 
+- **Scikit-learn** – For Random Forest classification model 
+- **Pickle** – For saving and loading the trained model 
+- **NumPy** – For data manipulation 
+- **Matplotlib** – For visualization of results 
 
 ## ✨ **Features**
-- **Dataset Collection**: Collects images of hand gestures and stores them for model training 📸
-- **Data Preprocessing**: Normalizes hand landmarks data for training 🔧
-- **Model Training**: Trains a Random Forest classifier on hand gesture data 🎓
-- **Gesture Prediction**: Real-time hand gesture recognition using webcam input 📷
-- **Performance Evaluation**: Model evaluation with accuracy score 📈
+- **Dataset Collection**: Collects images of hand gestures and stores them for model training 
+- **Data Preprocessing**: Normalizes hand landmarks data for training 
+- **Model Training**: Trains a Random Forest classifier on hand gesture data 
+- **Gesture Prediction**: Real-time hand gesture recognition using webcam input 
+- **Performance Evaluation**: Model evaluation with accuracy score 
 
 ## 📈 **Results**
-- **Accuracy**: The trained Random Forest model achieved high accuracy in gesture classification ✅
-- **Real-Time Inference**: Real-time hand gesture detection with webcam input 🖥️
-- **Visualization**: Displays predicted gesture on the screen with bounding boxes around the hand 🖐️
+- **Accuracy**: The trained Random Forest model achieved high accuracy in gesture classification 
+- **Real-Time Inference**: Real-time hand gesture detection with webcam input 
+- **Visualization**: Displays predicted gesture on the screen with bounding boxes around the hand 
 
 ## 💻 **Installation**
 
@@ -72,15 +72,15 @@ This project leverages **MediaPipe** for hand gesture detection and **Random For
 
 ## 📂 **Files**
 
-- **collect_imgs.py**: Script to collect hand gesture images using a webcam 📸
-- **create_dataset.py**: Preprocesses the collected images and extracts hand landmarks 🧠
-- **train_classifier.py**: Trains a Random Forest classifier using the processed data 🔥
-- **inference_classifier.py**: Uses the trained model to predict hand gestures in real-time 🖥️
-- **model.p**: The saved trained model 🗃️
-- **data.pickle**: Pickled file containing the training data and corresponding labels 📦
+- **collect_imgs.py**: Script to collect hand gesture images using a webcam 
+- **create_dataset.py**: Preprocesses the collected images and extracts hand landmarks 
+- **train_classifier.py**: Trains a Random Forest classifier using the processed data 
+- **inference_classifier.py**: Uses the trained model to predict hand gestures in real-time 
+- **model.p**: The saved trained model 
+- **data.pickle**: Pickled file containing the training data and corresponding labels 
 
 ## 🤝 **Contributing**
-Feel free to fork this repository and submit pull requests if you have improvements or suggestions! 🚀
+Feel free to fork this repository and submit pull requests if you have improvements or suggestions! 
 
 ## 📄 **License**
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
